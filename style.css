@@ -53,7 +53,23 @@ main h2{
 
 
 }
+div.video {
 
+background-color: #635E5B;
+position: relative;
+padding-bottom: 50%
+
+}
+
+div.video > iframe {
+    
+ position: absolute;
+ top: -1%;
+ left: 1%;
+ width: 95%;
+ height: 95%;
+
+}
 ul {
 
     list-style: inside;
